@@ -1,0 +1,957 @@
+@charset "utf-8";
+
+*
+{
+margin:0px;
+padding:0pc;
+}
+
+#ana
+{
+	border:2px solid #000;
+	width:1100px;
+	height:700px;
+	margin:auto;
+	margin-top:10px;
+}
+
+#banner
+{
+	background-image:url(resimler/BANNER.fw.png);
+	width:1100px;
+	height:100px;
+}
+
+#menu
+{
+	width:1100px;
+	height:52px;
+	background-color:#F00;
+}
+
+#menu li 
+{
+	list-style-type:none;
+	display:inline;
+}
+
+#menu li a
+{
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	line-height:50px;
+	text-decoration:none;
+	padding:15px 25px 18px 25px;
+	margin-left:0px;
+	color:#FFF;
+	
+	
+	
+}
+
+#menu li a:hover
+{
+	background-color:#F60;
+}
+
+#icerik
+{
+	width:1100px;
+	height:500px;
+	background-color:#FFF;
+}
+
+#footer
+{
+	width:1100px;
+	height:48px;
+	background-color:#F00;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;	
+	text-indent:925px;
+	color:#FFF;
+}
+
+#footer p 
+{
+	padding-top:15px;
+}
+
+
+#hosgeldin
+{
+	width:1100px;
+	border-bottom:2px dotted #000000;
+}
+
+
+#hosgeldin marquee
+{
+	padding:10px 10px;
+	font:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-weight:bold;
+	font-size:20px;
+	color:#00F;
+	
+}
+
+#urunler
+{
+	padding:20px 10px;
+	font:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size:30px;
+	
+	
+}
+
+#iletisimyazi
+{
+	padding:20px 10px;
+	font:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	font-size:30px;
+	text-indent:450px;
+}
+
+
+#iletisim
+{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	font-size:22px;
+	margin-left:370px;
+}
+
+#gonderildi
+{
+	color:#0C0;
+	text-indent:-200px;
+}
+
+#anagonderme a
+{
+	text-decoration:none;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:15px;
+	text-indent:20px;
+}
+#anagonderme:hover
+{
+	text-decoration:underline;
+}
+
+#g
+{
+	margin-top:10px;
+	color:#00F;
+}
+
+
+#a1
+{
+	background:url(resimler/9957304434738.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+	
+}
+
+
+#a2
+{
+	background:url(resimler/9739892817970.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#a3
+{
+	background:url(resimler/10359186194482.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#a4
+{
+	background:url(resimler/10424778686514.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+#kategori
+{
+	
+	text-indent:300px;
+	line-height:42px;
+	height:47px;
+	border-bottom:2px dotted #000;
+}
+
+#kategori li
+{
+	list-style-type:none;
+	display:inline;
+}
+
+#kategori li a
+{
+	font-weight:bold;
+	margin-left:50px;
+	color:#00F;
+	text-decoration:none;
+	padding:5px 5px 5px 5px;
+}
+
+#kategori li a:hover
+{
+	text-decoration:underline;
+}
+
+
+
+#moda1
+{
+	background:url(resimler/moda/9932241895474.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#moda2
+{
+	background:url(resimler/moda/10360754700338.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#moda3
+{
+	background:url(resimler/moda/10395899985970.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#moda4
+{
+	background:url(resimler/moda/10408159248434.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+
+#moda-tshirt1
+{
+	background:url(resimler/moda/t-shirt/10134320906290.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#moda-tshirt2
+{
+	background:url(resimler/moda/t-shirt/10139071971378.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#moda-tshirt3
+{
+	background:url(resimler/moda/t-shirt/10184007745586.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#moda-tshirt4
+{
+	background:url(resimler/moda/t-shirt/10460317319218.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+
+#moda-pantolon1
+{
+	background:url(resimler/moda/pantolon/9601051197490.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#moda-pantolon2
+{
+	background:url(resimler/moda/pantolon/10167280894002.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#moda-pantolon3
+{
+	background:url(resimler/moda/pantolon/10281996189746.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#moda-pantolon4
+{
+	background:url(resimler/moda/pantolon/10364667232306.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+
+#moda-ayakkabi1
+{
+	background:url(resimler/moda/ayakkabi/9951668600882.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#moda-ayakkabi2
+{
+	background:url(resimler/moda/ayakkabi/10161485611058.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#moda-ayakkabi3
+{
+	background:url(resimler/moda/ayakkabi/10353303486514.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#moda-ayakkabi4
+{
+	background:url(resimler/moda/ayakkabi/erkekOutdoorBot.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik1
+{
+	background:url(resimler/elektronik/10109651812402.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik2
+{
+	background:url(resimler/elektronik/10322429902898.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik3
+{
+	background:url(resimler/elektronik/10334154194994.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik4
+{
+	background:url(resimler/elektronik/10341466701874.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik-bilgisayar1
+{
+	background:url(resimler/elektronik/bilgisayar/10378625417266.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik-bilgisayar2
+{
+	background:url(resimler/elektronik/bilgisayar/10379642372146.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik-bilgisayar3
+{
+	background:url(resimler/elektronik/bilgisayar/10425360711730.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik-bilgisayar4
+{
+	background:url(resimler/elektronik/bilgisayar/10471051329586.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik-telefon1
+{
+	background:url(resimler/elektronik/telefon/10194864406578.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik-telefon2
+{
+	background:url(resimler/elektronik/telefon/10348118048818.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik-telefon3
+{
+	background:url(resimler/elektronik/telefon/10352816881714.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik-telefon4
+{
+	background:url(resimler/elektronik/telefon/10403083452466.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+#elektronik-televizyon1
+{
+	background:url(resimler/elektronik/televizyon/10226093195314.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik-televizyon2
+{
+	background:url(resimler/elektronik/televizyon/10235121106994.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#elektronik-televizyon3
+{
+	background:url(resimler/elektronik/televizyon/10291678281778.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+#elektronik-televizyon4
+{
+	background:url(resimler/elektronik/televizyon/10395028914226.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor1
+{
+	background:url(resimler/spor/9789424500786.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor2
+{
+	background:url(resimler/spor/9877633826866.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor3
+{
+	background:url(resimler/spor/10319029764146.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor4
+{
+	background:url(resimler/spor/10359475765298.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor-fitness1
+{
+	background:url(resimler/spor/fitness/10165971255346.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor-fitness2
+{
+	background:url(resimler/spor/fitness/10382835679282.fw.png);
+    background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor-fitness3
+{
+	background:url(resimler/spor/fitness/10471129907250.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor-fitness4
+{
+	background:url(resimler/spor/fitness/images.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor-basketbol1
+{
+	background:url(resimler/spor/basketbol/-4963-51-B.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor-basketbol2
+{
+	background:url(resimler/spor/basketbol/9611953668146.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor-basketbol3
+{
+	background:url(resimler/spor/basketbol/9679258910770.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor-basketbol4
+{
+	background:url(resimler/spor/basketbol/9728129302578.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor-bisiklet1
+{
+	background:url(resimler/spor/bisiklet/9060926292018.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor-bisiklet2
+{
+	background:url(resimler/spor/bisiklet/10130527879218.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor-bisiklet3
+{
+	background:url(resimler/spor/bisiklet/10158238728242.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
+
+
+#spor-bisiklet4
+{
+	background:url(resimler/spor/bisiklet/10348253544498.fw.png);
+	background-size:cover;
+	text-align:center;
+	padding-top:5px;
+	width:250px;
+	height:320px;
+	border:1px solid #000;
+	margin-left:15px;
+	float:left;
+	margin-top:20px;
+}
